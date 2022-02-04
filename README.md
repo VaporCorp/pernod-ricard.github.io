@@ -2,7 +2,7 @@
 
 Pernod Ricard initiative to promote Open Source and Open Data.
 
-## API
+## Initiatives
 
 ### HSTS Analyzer
 Simplifies the analysis of HTTP Strict-Transport-Security on any website. Provides a score and various informations in regards to HSTS.
