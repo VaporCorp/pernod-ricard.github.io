@@ -1,4 +1,4 @@
-## OpenBar
+# OpenBar
 
 Pernod Ricard initiative to promote Open Source and Open Data.
 
