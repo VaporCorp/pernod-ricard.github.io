@@ -3,6 +3,7 @@
 /*          BODY                */
 /*          HEADER              */
 /*          MAIN                */
+/*          FOOTER              */
 /*          MEDIA QUERIES       */
 
 /* BODY */
@@ -181,6 +182,17 @@ h4 {
 .fbw--link-wrapper li a, .sbw--link-wrapper li a{
     display: flex;
     align-items: center;
+}
+
+/* FOOTER */
+
+.footer-wrapper {
+    padding: 2rem 0;
+    background-color: #2a2a2a;
+}
+
+.footer-wrapper a {
+    color: #FFF;
 }
 
 /* MEDIA QUERIES */
