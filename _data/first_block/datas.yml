@@ -1,0 +1,23 @@
+- link: https://github.com/pernod-ricard/HSTS-Analyzer
+  image_src: assets/img/git-black-button.svg
+  image_alt: GitHub button
+  name: Repository
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet nunc at tellus imperdiet, vel
+  luctus leo sagittis. Vivamus sit amet tempor lectus, ac pharetra erat. Aliquam gravida pharetra
+  tortor vel posuere.'
+
+- link: https://api.openbar.pernod-ricard.io/v1/hsts/analyze/?url={url}
+  image_src: assets/img/api-black-button.svg
+  image_alt: Api button
+  name: API
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet nunc at tellus imperdiet, vel
+  luctus leo sagittis. Vivamus sit amet tempor lectus, ac pharetra erat. Aliquam gravida pharetra
+  tortor vel posuere.'
+
+- link: https://hsts-analyzer.openbar.pernod-ricard.io
+  image_src: assets/img/web-black-button.svg
+  image_alt: Web App button
+  name: Web App
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet nunc at tellus imperdiet, vel
+  luctus leo sagittis. Vivamus sit amet tempor lectus, ac pharetra erat. Aliquam gravida pharetra
+  tortor vel posuere.'

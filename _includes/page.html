@@ -1,0 +1,61 @@
+<div class="first-block">
+    <div class="first-block-wrapper">
+        <h3>{{ site.data.first_block.header.title }}</h3>
+        <p>{{ site.data.first_block.header.description }}</p>
+        <div class="fbw--logo-wrapper">
+            <ul>
+                {% for data in site.data.first_block.datas %}
+                <li>
+                    <a href="{{ data.link }}">
+                        <img src="{{ data.image_src }}" alt="{{ data.image_alt }}">
+                        <h4 class="grey-text-wrapper">{{ data.name }}</h4>
+                        <p>{{ data.description }}</p>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="fbw--link-wrapper">
+            <ul>
+                {% for example in site.data.first_block.examples %}
+                <li><a
+                        href="{{ example.link }}"><img
+                        src="{{ example.image_src }}">
+                    <span class="grey-text-wrapper">{{ example.title }}</span>{{ example.description }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="second-block">
+    <div class="second-block-wrapper">
+        <h3>{{ site.data.second_block.header.title }}</h3>
+        <p>{{ site.data.second_block.header.description }}</p>
+        <div class="sbw--logo-wrapper">
+            <ul>
+                {% for data2 in site.data.second_block.datas %}
+                <li>
+                    <a href="{{ data2.link }}">
+                        <img src="{{ data2.image_src }}" alt="{{ data2.image_alt }}">
+                        <h4 class="yellow-text-wrapper">{{ data2.name }}</h4>
+                        <p>{{ data2.description }}</p>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="sbw--link-wrapper">
+            <ul>
+                {% for example in site.data.second_block.examples %}
+                <li><a
+                        href="{{ example.link }}"><img
+                        src="{{ example.image_src }}">
+                    <span class="yellow-text-wrapper">{{ example.title }}</span>{{ example.description }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
