@@ -1,0 +1,15 @@
+- link: https://github.com/Santandersecurityresearch/DrHeader
+  image_src: assets/img/git-white-button.svg
+  image_alt: GitHub button
+  name: Repository
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet nunc at tellus imperdiet, vel
+  luctus leo sagittis. Vivamus sit amet tempor lectus, ac pharetra erat. Aliquam gravida pharetra
+  tortor vel posuere.'
+
+- link: https://api.openbar.pernod-ricard.io/v1/dr-header/[http|https]/{domain}
+  image_src: assets/img/api-white-button.svg
+  image_alt: Api button
+  name: API
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet nunc at tellus imperdiet, vel
+  luctus leo sagittis. Vivamus sit amet tempor lectus, ac pharetra erat. Aliquam gravida pharetra
+  tortor vel posuere.'

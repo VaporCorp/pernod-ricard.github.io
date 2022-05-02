@@ -1,0 +1,23 @@
+- link: https://api.openbar.pernod-ricard.io/v1/dr-header/https/pernod-ricard.com
+  image_src: assets/img/link-white-button.svg
+  title: 'Example&nbsp;1&nbsp;:&nbsp;'
+  description: 'Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit.'
+
+- link: https://api.openbar.pernod-ricard.io/v1/dr-header/https/developer.pernod-ricard.io
+  image_src: assets/img/link-white-button.svg
+  title: 'Example&nbsp;2&nbsp;:&nbsp;'
+  description: 'Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit.'
+
+- link: https://api.openbar.pernod-ricard.io/v1/dr-header/http/google.com
+  image_src: assets/img/link-white-button.svg
+  title: 'Example&nbsp;3&nbsp;:&nbsp;'
+  description: 'Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit.'
+
+- link: https://api.openbar.pernod-ricard.io/v1/dr-header/https/google.com
+  image_src: assets/img/link-white-button.svg
+  title: 'Example&nbsp;4&nbsp;:&nbsp;'
+  description: 'Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit.'
