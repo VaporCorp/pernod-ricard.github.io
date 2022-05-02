@@ -8,7 +8,8 @@
   image_src: assets/img/api-black-button.svg
   image_alt: Api button
   name: API
-  description: "Just put the URL you need to test instead of {url} and you are good to go"
+  description: "API is accessible on https://api.openbar.pernod-ricard.io/v1/hsts/analyze/?url={url}
+  Just put the URL you need to test instead of {url} and you are good to go"
 
 - link: https://hsts-analyzer.openbar.pernod-ricard.io
   image_src: assets/img/web-black-button.svg
