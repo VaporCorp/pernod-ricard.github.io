@@ -1,5 +1,4 @@
-- link: https://github.com/pernod-ricard/HSTS-Analyzer
+- link: https://api.openbar.pernod-ricard.io/v1/hsts/analyze/?url=https%3A%2F%2Fpernod-ricard.com
   image_src: assets/img/link-black-button.svg
-  title: 'Example&nbsp;1&nbsp;:&nbsp;'
-  description: 'Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit.'
+  title: "Example&nbsp;:&nbsp;"
+  description: "Get the results of the analysis of our main site pernod-ricard.com"
