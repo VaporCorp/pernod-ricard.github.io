@@ -22,15 +22,15 @@ body {
 /* HEADER */
 
 .header-wrapper {
-    background-color: #3c3c3b;
-}
-
-header {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 1400px;
     margin: 0 auto;
+}
+
+header {
+    background-color: #3c3c3b;
 }
 
 header img {
@@ -186,12 +186,12 @@ h4 {
 
 /* FOOTER */
 
-.footer-wrapper {
+footer {
     padding: 2rem 0;
     background-color: #2a2a2a;
 }
 
-.footer-wrapper a {
+footer a {
     color: #FFF;
 }
 
@@ -242,4 +242,11 @@ h4 {
     .fbw--logo-wrapper li, .sbw--logo-wrapper li {
         width: 100%;
     }
+}
+
+@media (max-width: 575.98px) {
+    .first-block-wrapper, .second-block-wrapper {
+        padding: 0;
+    }
+
 }
