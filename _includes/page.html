@@ -1,8 +1,8 @@
-<div class="first-block">
-    <div class="first-block-wrapper">
+<div class="light-block">
+    <div class="light-block-wrapper">
         <h3>{{ site.data.hsts_analyzer.header.title }}</h3>
         <p>{{ site.data.hsts_analyzer.header.description }}</p>
-        <div class="fbw--logo-wrapper">
+        <div class="lbw--logo-wrapper">
             <ul>
                 {% for data in site.data.hsts_analyzer.datas %}
                 <li>
@@ -15,7 +15,7 @@
                 {% endfor %}
             </ul>
         </div>
-        <div class="fbw--link-wrapper">
+        <div class="lbw--link-wrapper">
             <ul>
                 {% for example in site.data.hsts_analyzer.examples %}
                 <li><a href="{{ example.link }}"><img src="{{ example.image_src }}">
@@ -27,11 +27,11 @@
     </div>
 </div>
 
-<div class="second-block">
-    <div class="second-block-wrapper">
+<div class="dark-block">
+    <div class="dark-block-wrapper">
         <h3>{{ site.data.dr_header.header.title }}</h3>
         <p>{{ site.data.dr_header.header.description }}</p>
-        <div class="sbw--logo-wrapper">
+        <div class="dbw--logo-wrapper">
             <ul>
                 {% for data2 in site.data.dr_header.datas %}
                 <li>
@@ -44,7 +44,7 @@
                 {% endfor %}
             </ul>
         </div>
-        <div class="sbw--link-wrapper">
+        <div class="dbw--link-wrapper">
             <ul>
                 {% for example in site.data.dr_header.examples %}
                 <li><a href="{{ example.link }}"><img src="{{ example.image_src }}">
